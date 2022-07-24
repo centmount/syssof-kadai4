@@ -1,0 +1,37 @@
+
+GitHub repository and TravisCI log
+
+
+GitHub repository
+https://github.com/centmount/syssof-kadai4
+branch: main
+
+
+TravisCI log-data
+https://api.travis-ci.com/v3/job/577575386/log.txt
+
+$ git clone --depth=50 --branch=main https://github.com/centmount/syssof-kadai4.git centmount/syssof-kadai4
+Cloning into 'centmount/syssof-kadai4'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 0), reused 5 (delta 0), pack-reused 0
+Receiving objects: 100% (5/5), done.
+$ cd centmount/syssof-kadai4
+$ git checkout -qf d05b380f948fb1f331ab13e367dd0923d91bf9ff
+0.01s
+$ bash -c 'echo $BASH_VERSION'
+4.3.48(1)-release
+0.00s
+$ echo hello
+hello
+The command "echo hello" exited with 0.
+0.00s
+$ echo Travis CI test in .travis.yml
+Travis CI test in .travis.yml
+The command "echo Travis CI test in .travis.yml" exited with 0.
+0.03s
+$ ./gcd_test.sh
+The command "./gcd_test.sh" exited with 0.
+Done. Your build exited with 0.
+
