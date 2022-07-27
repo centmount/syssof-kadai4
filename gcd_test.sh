@@ -45,3 +45,6 @@ diff $tmp-ans $tmp-15 || ERROR_EXIT "error in test7-2"
 ./gcd.sh 1.3 9.8 2> $tmp-ans && ERROR_EXIT "error in test8-1"
 diff $tmp-ans $tmp-nat || ERROR_EXIT "error in test8-2"
 
+echo "This program (gcd_test.sh) is completed successfully."
+exit 0
+
